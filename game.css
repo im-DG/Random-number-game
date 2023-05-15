@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+}
+
+.main-box {
+    background-color: rgb(166, 201, 201);
+    width: 35rem;
+    height: 25rem;
+    margin: 5rem auto;
+    border-radius: 0.5rem;
+    box-shadow: 17px 18px 30px 5px rgb(79, 72, 72);
+}
+
+.head {
+    text-align: center;
+    margin-left: 3rem;
+    padding-top: 3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.head span {
+    color: green;
+}
+
+#num1 {
+
+    margin-left: 5rem;
+    font-size: 1.7rem;
+    height: 5rem;
+    background-color: rgb(171, 237, 196);
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 25px 2px rgb(206, 164, 164) inset;
+
+}
+
+#ok-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(171, 217, 241);
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    position: relative;
+    bottom: 4.5rem;
+    right: -28rem;
+}
+
+#ok-btn:hover {
+    background-color: rgb(84, 123, 87);
+    color: white;
+}
+
+#display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 100%;
+    border-radius: 8px;
+    height: 5rem;
+    background-color: rgb(191, 176, 144);
+}
